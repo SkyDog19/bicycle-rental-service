@@ -1,0 +1,11 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  //color: $whiteColor;
+  gap: 10px;
+
+  button {
+    padding: 15px;
+    font-size: 18px;
+  }
+}

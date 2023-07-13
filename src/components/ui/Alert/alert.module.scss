@@ -1,0 +1,30 @@
+@import 'styles/base.scss';
+
+.alert {
+	max-width: 300px;
+	width: 100%;
+	background-color: #5be7c4;
+	color: #252a34;
+	margin-bottom: 1rem;
+	animation: opacity 0.4s;
+	padding: 10px;
+	border-radius: 10px;
+
+	@media (max-width: $mobileSmall) {
+		max-width: 100%;
+	}
+
+	&.error {
+		background-color: #ff2e63;
+		color: $whiteColor;
+	}
+
+	&.info {
+		background-color: #50c1e9;
+	}
+
+	&.warning {
+		background-color: #f75940;
+		color: $whiteColor;
+	}
+}

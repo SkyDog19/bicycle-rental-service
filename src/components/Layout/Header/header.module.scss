@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  background: #5e5efc;
+  height: 80px;
+
+  color: #ede2e2;
+}
+
+.logo {
+  svg {
+    font-size: 70px;
+  }
+
+  margin-right: 60px;
+}
+
+.navigation {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  color: #ede2e2;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  button {
+    font-size: 20px;
+  }
+
+  svg {
+    font-size: 32px;
+  }
+}

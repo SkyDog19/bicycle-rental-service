@@ -1,0 +1,25 @@
+.root {
+  background-color: rgba(135, 135, 135, 0.45);
+  width: 100%;
+  height: 100%;
+
+  h1 {
+    padding-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .body {
+    text-align: left;
+    padding-left: 50px;
+
+    p {
+      margin-bottom: 5px;
+      font-size: 20px;
+      color: #020000;
+    }
+
+    button {
+      margin-right: 5px;
+    }
+  }
+}

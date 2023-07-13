@@ -1,0 +1,26 @@
+.table {
+  border-collapse: collapse;
+  //border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 auto;
+
+  thead {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #5e5efc;
+  }
+
+  tbody {
+    font-size: 20px;
+    white-space: nowrap;
+
+    tr {
+      background-color: rgb(185, 180, 180);
+    }
+  }
+
+  td {
+    padding: 15px;
+    border: 1px solid black;
+  }
+}
